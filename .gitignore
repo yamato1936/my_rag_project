@@ -33,3 +33,6 @@ chroma_db/
 # macOSやWindowsが自動生成するシステムファイル
 .DS_Store
 Thumbs.db
+
+#pdfファイル
+docs
