@@ -1,0 +1,35 @@
+# Python
+# =========================
+# Pythonが自動生成するキャッシュファイルやコンパイル済みファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+# Virtual Environments
+# =========================
+# 仮想環境フォルダ（あなたの環境に合わせて "mrp/" を追加）
+mrp/
+venv/
+.venv/
+
+
+# Secrets
+# =========================
+# APIキーなどの秘密情報ファイル。絶対にコミットしないこと。
+.env
+
+
+# Generated Databases
+# =========================
+# プログラム実行時に自動生成されるデータベース
+chroma_db/
+*.sqlite3
+
+
+# OS-specific files
+# =========================
+# macOSやWindowsが自動生成するシステムファイル
+.DS_Store
+Thumbs.db
