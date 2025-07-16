@@ -17,7 +17,7 @@ DeepMindの歴史的論文「Mastering the game of Go with deep neural networks 
 
 コード スニペット
 
-```
+```mermaid
 graph TD
     subgraph 初期セットアップ
         A[PDF論文ファイル] --> B{PyPDFLoader};
